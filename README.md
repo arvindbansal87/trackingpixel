@@ -9,7 +9,7 @@
 
 4.Open the email and click the link. the pixel request will record the open event.
 
-5.You may also forward the email to another recipient and repeat steps 2 through 4.
+5.You may also forward the email to another recipient and repeat steps from 2 to 4.
 
 6.Check logs: http://localhost:8080/events → You'll see time, IP, location, and user agent.
 
