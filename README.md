@@ -6,8 +6,7 @@
 
 2.Visit in postman:
 http://localhost:8080/recipient/pixel/url?email=abc@gmail.com
-→ Copy the generated <img src="..."> snippet.
-<img src='http://localhost:8080/pixel.png?id=8e2baf2d-d0ff-44e6-8510-ce2ead83aa4b' width='1' height='1' style='display:none;' />
+→ Copy the generated <img src="..........."> snippet.
 
 3.Paste it into the body of an email and send it to any Gmail recipient.
 
