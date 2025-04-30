@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Tracking Events</title></head>
+	<body>
+	<h2>Pixel Open Events</h2>
+		<table border="1">
+			<tr>
+				<th>Pixel ID</th>
+				<!-- <th>IP</th> -->
+				<!-- <th>User Agent</th> -->
+				<th>Time And Date</th>
+				<th>City</th>
+				<th>Country</th>
+				
+			</tr>
+			<tr th:each="event : ${events}">
+			    <td th:text="${event.pixelId}" />
+			    <!-- <td th:text="${event.ip}" /> -->
+			   <!--  <td th:text="${event.userAgent}" /> -->
+			    <td th:text="${event.timestamp}" />
+			    <td th:text="${event.city}" />
+			    <td th:text="${event.country}" />
+			   
+			</tr>
+		</table>
+	</body>
+</html>
