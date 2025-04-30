@@ -1,6 +1,6 @@
 # trackingpixel
 # Steps to run app
-# Unable to capture the forwarded recipient email. I didn't find any right approach due security.
+# Pending - Capturing the email address of a forwarded recipient is not possible due to security restrictions, and no reliable method could be found.
 
 1.Run the app in your IDE or terminal.
 
